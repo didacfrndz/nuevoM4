@@ -8,15 +8,62 @@
         .divGrande{
             background-color: antiquewhite;
             width: 100vw;
+            min-height: 8vh;
             display: flex;
             align-items: center;
-            
+            justify-content: space-between; /* separa imagen y menu */
+            padding: 2vh 4vw;
         }
         .divImagen{
-            background-image: url(./image.png);
+            width: 48px;
+            height: 48px;
+            background-image: url(./sol.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .divMenu nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .divMenu nav ul li {
+            font-size: 1.1rem;
+            font-weight: bold;
         }
 
-
+        .divMain{
+            display: flex;
+            gap: 4vw;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3vh;
+            width: 90vw;
+            min-height: 20vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .divCara{
+            width: 18vw;
+            height: 18vw;
+            min-width: 100px;
+            min-height: 100px;
+            max-width: 220px;
+            max-height: 220px;
+            background-image: url(./cara.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .texto{
+            width: 40vw;
+            min-width: 180px;
+            max-width: 500px;
+            font-size: 1.2rem;
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
@@ -29,20 +76,22 @@
             <div class="divMenu">
                 <nav>
                     <ul>
-                        <li>
-                            si
-                        </li>
+                        <li>Inicio</li>
+                        
                     </ul>
                 </nav>
             </div>
-            
         </div>
         
         
     </header>
 
     <main>
-
+        <div class="divMain">
+            <!--Aqui colocaremos en el div la foro de la cara a la izquierda en el div junto a otro div donde se pueda poner un texto con el nombre y un texto mas-->
+            <div class="divCara"></div>
+            <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sit corrupti doloremque porro omnis quaerat, saepe eius ullam, cum ut blanditiis libero. Inventore ea magnam consectetur vero esse omnis dicta!</div>
+        </div>
     </main>
 
     <footer>
