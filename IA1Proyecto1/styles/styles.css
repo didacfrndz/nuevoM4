@@ -1,0 +1,40 @@
+.ParteSuperior{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1 h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+img.fotoLogo{
+    width: 150px;
+    height: auto;
+    border-radius: 0%;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+button{
+    background-color: rgba(6, 153, 166, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+h3{
+    color:rgba(158, 140, 108, 1);
+}
