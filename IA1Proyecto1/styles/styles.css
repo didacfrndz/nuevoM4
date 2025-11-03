@@ -13,8 +13,10 @@ h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 
-
-
+/* Add this to the general styles */
+h1 {
+    font-size: 2.5em;
+}
 
 img.fotoLogo{
     width: 150px;
@@ -101,8 +103,52 @@ footer > div{
    .ParteSuperior{
     height: 747px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+    padding: 0 144px;
+   }
+   .ParteSuperior img:not(.fotoLogo) {
+       width: 500px;
+       height: 500px;
+       margin-right: 20px;
+   }
+   .ParteSuperior .contenido-derecha {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       text-align: left;
+   }
+   .ParteSuperior h2 {
+       margin: 0;
+       font-size: 2.5em;
+   }
+   .ParteSuperior h1 {
+       margin: 10px 0 20px 0;
+       font-size: 3em;
+   }
+   .ParteSuperior button {
+       margin-top: 20px;
+   }
+   .ParteSuperior .contenido-derecha h3 {
+       margin: 0 0 10px 0;
+       font-size: 2em;
+   }
+   .ParteSuperior .contenido-derecha h1 {
+       margin: 0 0 20px 0;
+       font-size: 10em; 
+   }
+   .ParteSuperior .contenido-derecha {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       text-align: left;
+   }
+   .sect{
+       margin-bottom: 100px;
+   }
+   h2{
+         font-size: 3em;
    }
 }
