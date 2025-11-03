@@ -107,11 +107,11 @@ footer > div{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 0 144px;
+    padding: 144px;
    }
    .ParteSuperior img:not(.fotoLogo) {
-       width: 500px;
-       height: 500px;
+       width: 600px;
+       height: 600px;
        margin-right: 20px;
    }
    .ParteSuperior .contenido-derecha {
@@ -137,7 +137,7 @@ footer > div{
    }
    .ParteSuperior .contenido-derecha h1 {
        margin: 0 0 20px 0;
-       font-size: 10em; 
+       font-size: 15em; 
    }
    .ParteSuperior .contenido-derecha {
        display: flex;
@@ -150,5 +150,11 @@ footer > div{
    }
    h2{
          font-size: 3em;
+   }
+   .apartados{
+       margin-bottom: 70px;
+   }
+   p,h3{
+         font-size: 1.5em;
    }
 }
