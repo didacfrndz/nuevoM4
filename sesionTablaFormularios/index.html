@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Formularios</title>
+    <style>
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        thead {
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas y Formularios</h1>
+    <h2>Tablas</h2>
+    <table>
+        <caption>Usuarios</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>1r Apellido</th>
+                <th>2o Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jose</td>
+                <td>Heredia</td>
+                <td>Aguilar</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Luis</td>
+                <td>Lirola</td>
+                <td>Limon</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">@2025</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
