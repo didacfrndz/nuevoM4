@@ -137,3 +137,21 @@ input {
     color: #2F80ED;
 }
 
+.cuadradoNaranja{
+    background-color: #FEE2654D;
+    border-radius: 20px;
+    width: 280px;
+    height: 250px;
+    display: flex;
+    align-self: center;
+}
+.centrado{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#inbox{
+    width: 200px;
+    height: 200px;
+}
