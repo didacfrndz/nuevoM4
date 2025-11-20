@@ -85,6 +85,7 @@ li:hover {
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
 }
 .h2sec1{
     width: 700px;
@@ -102,3 +103,82 @@ li:hover {
 .divsec1 p{
     margin-bottom: 30px;
 }
+
+/* Estilos del filtro*/
+.filtrosect1{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    height: 64px;
+    width: 1030px;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+    box-shadow: 0px 2px  #00000026  ;
+
+}
+.filtro1{
+    background-color: #F2F2F2;
+    width: 260px;
+    height: 43px;
+    border-radius: 4px;
+    align-content: center;
+}
+.filtro2{
+    background-color: #F2F2F2;
+    width: 170px;
+    height: 43px;
+    border-radius: 4px;
+    align-content: center;
+}
+.filtro3{
+    background-color: #F2F2F2;
+    width: 170px;
+    height: 43px;
+    border-radius: 4px;
+    align-content: center;
+}
+.filtro4{
+    background-color: #F2F2F2;
+    width: 210px;
+    height: 43px;
+    border-radius: 4px;
+    align-content: center;
+}
+.btnSearch{
+    background-color: #2F80ED; 
+    width: 148px;
+    height: 44px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.btnSearch:hover {
+    background-color: #1c5bbf;
+}
+
+/*Notificacion*/
+.notificacion{
+    margin-top: 80px;
+    background-color: #FCEFCA;
+    width: 1240px;
+    height: 72px;
+    align-content: center;
+    border-radius: 8px;
+}
+
+/*Seccion2*/
+.fotosSect2{
+    display: flex;
+    justify-content: space-around;
+}
+.imgsect2{
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+/*Seccion3*/
