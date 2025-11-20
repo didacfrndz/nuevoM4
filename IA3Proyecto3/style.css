@@ -182,3 +182,42 @@ li:hover {
 }
 
 /*Seccion3*/
+.cardsect3{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background-image: url(./assetshome/sydney.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+    
+}
+.card2{
+    background-image: url(./assetshome/restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+    
+}
+.card3{
+    background-image: url(./assetshome/montains.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+    
+}
+.textoCard{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
