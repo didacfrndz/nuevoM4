@@ -124,7 +124,15 @@ li:hover {
     width: 260px;
     height: 43px;
     border-radius: 4px;
-    align-content: center;
+    display: flex;          
+    align-items: center;    
+    padding-left: 10px;
+}
+.filtro1 p {
+    display: flex;
+    align-items: center;   
+    gap: 6px;              
+    margin: 0;
 }
 .filtro2{
     background-color: #F2F2F2;
@@ -133,6 +141,12 @@ li:hover {
     border-radius: 4px;
     align-content: center;
 }
+.filtro2 p {
+    display: flex;
+    align-items: center;   
+    gap: 6px;              
+    margin: 0;
+}
 .filtro3{
     background-color: #F2F2F2;
     width: 170px;
@@ -140,12 +154,24 @@ li:hover {
     border-radius: 4px;
     align-content: center;
 }
+.filtro3 p {
+    display: flex;
+    align-items: center;   
+    gap: 6px;              
+    margin: 0;
+}
 .filtro4{
     background-color: #F2F2F2;
     width: 210px;
     height: 43px;
     border-radius: 4px;
     align-content: center;
+}
+.filtro4 p {
+    display: flex;
+    align-items: center;   
+    gap: 6px;              
+    margin: 0;
 }
 .btnSearch{
     background-color: #2F80ED; 
@@ -168,6 +194,13 @@ li:hover {
     height: 72px;
     align-content: center;
     border-radius: 8px;
+}
+.notificacion p {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;   
+    gap: 6px;              
+    
 }
 
 /*Seccion2*/
@@ -216,8 +249,56 @@ li:hover {
     border-radius: 8px;
     
 }
+.cardsect4{
+    display: flex;
+    justify-content: space-around;
+}
 .textoCard{
     color: white;
     position: absolute;
     bottom: 0px;
+    left: 20px;
+    right: 20px;
+}
+.imgsect4{
+    width: 295px;
+    height: 300px;
+    border-radius: 8px;
+}
+.imgsect5 {
+    width: 1240px;
+    height: 280px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden; 
+}
+.imgsect5::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(./assetshome/aerialBeach.jpg);
+    background-size: cover;
+    background-position: center;
+
+    transform: scaleX(-1);
+    z-index: -1;
+}
+.textoSect5{
+    width: 580px;
+    height: 152px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.h2sect5{
+    color: white;
+}
+.imgmovil{
+    z-index: 1;
+    position: absolute;
+    bottom: -200px;
+    left: 350px;
+    width: 828.64px;
+    height: 684.31px;
+    transform: rotate(-15deg);
 }
