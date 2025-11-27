@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <form action="#">
+    <div class="dos-columnas">
+    <div class="form-group">
+        <label for="nombre">Nombre completo*</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellidos" required>
+    </div>
+
+    <div class="form-group">
+        <label for="dni">DNI/NIE*</label>
+        <input type="text" name="dni" id="dni" placeholder="00000000X" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Correo electrónico*</label>
+        <input type="email" name="email" id="email" placeholder="tucorreo@ejemplo.com">
+    </div>
+
+    <div class="form-group">
+        <label for="telefono">Teléfono de contacto*</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="+34 600 000 000" required>
+    </div>
+
+    <div class="form-group">
+        <label for="fecha-nacimineto">Fecha de nacimiento*</label>
+        <input type="date" name="fecha-nacimineto" id="fecha-nacimineto" required>
+    </div>
+
+    <div class="form-group">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" name="ciudad" id="ciudad">
+    </div>
+</div>
+
+    <div class="form-group">
+        <label for="direccion">Dirección postal</label>
+        <input type="text" name="direccion" id="direccion" placeholder="Calle, número, piso...">
+    </div>
+
+<div class="dos-columnas-2">
+
+    <!-- IZQUIERDA -->
+    <div class="form-group">
+        <label for="curso">Curso al que te quieres inscribir *</label>
+        <select id="curso" name="curso" required>
+            <option value="">Selecciona un curso…</option>
+            <option value="dam1">1º DAM - Desarrollo de Aplicaciones Multiplataforma</option>
+            <option value="daw1">1º DAW - Desarrollo de Aplicaciones Web</option>
+            <option value="asir1">1º ASIR - Administración de Sistemas Informáticos en Red</option>
+            <option value="smx1">1º SMX - Sistemas Microinformáticos y Redes</option>
+        </select>
+    </div>
+
+    <!-- DERECHA -->
+    <div class="form-group turno-container">
+        <label for="turno">Turno preferente *</label>
+
+        <label><input type="radio" name="turno" value="manana" required> Mañana</label>
+        <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+        <label><input type="radio" name="turno" value="indiferente"> Indiferente</label>
+</div>
+
+    <!-- IZQUIERDA -->
+    <div class="form-group">
+        <label for="nota-media">Nota media del último curso</label>
+        <input type="number" name="nota-media" id="nota-media" min="0" max="10" step="0.1" placeholder="Ej:7.5">
+    </div>
+
+    <!-- DERECHA -->
+    <div class="form-group">
+        <label for="experiencia-programacion">Experiencia en programación (0 = nada, 10 = mucha)</label>
+        <input type="range" name="experiencia-programacion" id="experiencia-programacion" min="0" max="10" value="3">
+    </div>
+
+</div>
+    <div class="form-group">
+        <label for="estudios-previos">Estudios previos</label>
+        <select name="estudios-previos" id="estudios-previos">
+            <option value="">Selecciona una opción...</option>
+            <option value="eso">ESO</option>
+            <option value="bachillerato">Bachillerato</option>
+            <option value="cfgm">Ciclo Formativo de Grado Medio</option>
+            <option value="cfgs">Ciclo Formativo de Grado Superior</option>
+            <option value="universidad">Estudios universitarios</option>
+            <option value="otros">Otros</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="horario-preferente">Franja horaria preferente de contacto</label>
+        <input type="time" name="horario-preferente" id="horario-preferente">
+    </div>
+
+    <div class="form-group">
+        <label for="">¿Cómo nos has conocido?</label>
+        <input list="origen" id="origen-input" name="origen-input" placeholder="Empieza a escribir..."/>
+        <datalist id="origen">
+            <option value="Amigos / conocidos"></option>
+            <option value="Redes sociales"></option>
+            <option value="Página web del centro"></option>
+            <option value="Feria educativa"></option>
+            <option value="Profesor/a de tu centro"></option>           
+        </datalist>
+    </div>
+
+    <div class="form-group  checkbox-group">
+        <label><input type="checkbox" name="servicios" value="orientacion"> Quiero recibir una sesión de orientación académica</label>
+        <label><input type="checkbox" name="servicios" value="becas"> Quiero información sobre becas y ayudas</label>
+        <label><input type="checkbox" name="servicios" value="bolsa-trabajo"> Quiero acceso a la bolsa de trabajo/prácticas</label>
+    </div>
+
+    <div class="form-group">
+        <label for="file-dni">Copia del DNI / NIE (PDF o imagen)</label>
+        <input type="file" name="file-dni" id="file-dni" accept=".pdf,image/*">
+    </div>
+
+    <div class="form-group">
+        <label for="file-notas">Certificado de notas (PDF)</label>
+        <input type="file" name="file-notas" id="file-notas" accept=".pdf">
+    </div>
+
+    <div class="form-group">
+        <label for="comentarios">Comentarios adicionales</label>
+        <textarea name="comentarios" id="comentarios" rows="4" placeholder="Indica cualquier información relevante (discapacidad, compatibilidad con trabajo, etc.)"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label><input type="checkbox" name="acepto-condiciones"> Acepto la política de privacidad y el tratamiento de mis datos *</label>
+        <label><input type="checkbox" name="acepto-comunicaciones"> Acepto recibir comunicaciones informativas sobre otros cursos</label>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Enviar solicitud</button>
+        <button type="reset">Limpiar formulario</button>
+    </div>
+
+    <input type="hidden" name="origen-formulario" value="web-centro">
+</form>
+
+</body>
+</html>
