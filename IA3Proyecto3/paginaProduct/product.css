@@ -1,0 +1,73 @@
+.contenedor {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* Estilos generales del header */
+.header {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 1240px;
+    
+}
+.logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+nav {
+    margin: 10px 0;
+}
+li {
+    display: inline;
+    margin-right: 15px;
+}
+li:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para el botón de inicio de sesión */
+.btnLogin{
+    background-color: #2F80ED; 
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    gap: 10px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btnLogin:hover {
+    background-color: #1c5bbf;
+}
+/* Estilos para el botón de registro */
+.btnReg{
+    background-color: white;
+    border: none;
+    color:#2F80ED ;
+    padding: 10px 18px;
+    gap: 10px;
+    border-radius: 6px;
+    border: #2F80ED 1px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btnReg:hover {
+    background-color: #e6f0ff;
+}
