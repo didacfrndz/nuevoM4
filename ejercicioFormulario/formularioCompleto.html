@@ -48,6 +48,7 @@
         <label for="direccion">Dirección postal</label>
         <input type="text" name="direccion" id="direccion" placeholder="Calle, número, piso...">
     </div>
+    <p>Información académica y curso</p>
 
     <div class="dos-columnas">
         <div class="bloque">
@@ -91,7 +92,7 @@
             <option value="otros">Otros</option>
         </select>
     </div>
-
+    <p>Preferencias y servicios adicionales</p>
     <div class="bloque">
         <label for="horario-preferente">Franja horaria preferente de contacto</label>
         <input type="time" name="horario-preferente" id="horario-preferente">
@@ -108,14 +109,15 @@
             <option value="Profesor/a de tu centro"></option>
         </datalist>
     </div>
-
+    <p>Servicios adicionales (opcional):</p>
     <div class="bloque">
         <label><input type="checkbox" name="servicios" value="orientacion"> Quiero recibir una sesión de orientación académica</label>
         <label><input type="checkbox" name="servicios" value="becas"> Quiero información sobre becas y ayudas</label>
         <label><input type="checkbox" name="servicios" value="bolsa-trabajo"> Quiero acceso a la bolsa de trabajo/prácticas</label>
     </div>
 
-    <div class="bloque">
+    <div class="dos-columnas">
+        <div class="bloque">
         <label for="file-dni">Copia del DNI / NIE (PDF o imagen)</label>
         <input class="file" type="file" name="file-dni" id="file-dni" accept=".pdf,image/*">
     </div>
@@ -124,6 +126,8 @@
         <label for="file-notas">Certificado de notas (PDF)</label>
         <input class="file" type="file" name="file-notas" id="file-notas" accept=".pdf">
     </div>
+    </div>
+    
 
     <div class="bloque">
         <label for="comentarios">Comentarios adicionales</label>
@@ -136,8 +140,11 @@
     </div>
 
     <div class="bloque">
-        <button class="btn-enviar" type="submit">Enviar solicitud</button>
-        <button type="reset">Limpiar formulario</button>
+        <div class="dos-columnas">
+            <button class="btn-enviar" type="submit">Enviar solicitud</button>
+            <button type="reset">Limpiar formulario</button>
+        </div>
+        
     </div>
 
     <input type="hidden" name="origen-formulario" value="web-centro">
