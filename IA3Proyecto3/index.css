@@ -14,12 +14,12 @@ img {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    flex-wrap: wrap; /* permite varias columnas */
+    flex-wrap: wrap; 
 }
 
 .item {
     display: flex;
-    flex-direction: column; /* 👈 título encima de imagen */
+    flex-direction: column; 
     align-items: flex-start;
     gap: 10px;
 }
